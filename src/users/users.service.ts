@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class UsersService {
   helloWorld() {
-    console.log('Hello World');
+    console.log('Hello from protected route');
   }
 }
